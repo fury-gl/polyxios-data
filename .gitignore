@@ -1,0 +1,8 @@
+# Ignore everything by default
+*
+
+# Do not ignore
+!.gitignore
+!packager.py
+!README.md
+
