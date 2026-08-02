@@ -1,0 +1,10 @@
+# Ignore everything by default
+*
+
+# Do not ignore
+!.gitignore
+!models.json
+!README.md
+!.github/
+!.github/**
+
