@@ -3,6 +3,8 @@
 
 # Do not ignore
 !.gitignore
-!packager.py
+!models.json
 !README.md
+!.github/
+!.github/**
 
