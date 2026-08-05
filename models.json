@@ -1,0 +1,1719 @@
+{
+  "ext_to_package": {
+    "f3grid": "flac3d",
+    "fem": "nastran",
+    "inp": "abaqus",
+    "meshb": "medit",
+    "tec": "tecplot",
+    "vol": "netgen",
+    "xml": "dolfin"
+  },
+  "formats": {
+    "abaqus": {
+      "UUea.inp": {
+        "sha256": "0263bf32e6bd93bbdaf9fe0ff531aaad9ac9af8722100ef8f92813f8c2ccdb3b",
+        "size_bytes": 7338,
+        "size_pretty": "7.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/abaqus/UUea.inp"
+      },
+      "beam-buckl_calculix.inp": {
+        "sha256": "f92e67c252615a2b1a8a6d7e35b83babc6ae5236c6a0d0ae518bf50a03fdc7c4",
+        "size_bytes": 2215,
+        "size_pretty": "2.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/abaqus/beam-buckl_calculix.inp"
+      },
+      "element_elset.inp": {
+        "sha256": "f6f96eed6f4ceb1160c52ff45131762c979e212e1bd7e2776999e574efc2e863",
+        "size_bytes": 216,
+        "size_pretty": "216 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/abaqus/element_elset.inp"
+      },
+      "nle1xf3c.inp": {
+        "sha256": "2d8bc83d571066e10faac3fe9b43d1c91d02ec6ab89903f479e0d3546a7cc424",
+        "size_bytes": 1850,
+        "size_pretty": "1.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/abaqus/nle1xf3c.inp"
+      },
+      "timber_modal_calculix.inp": {
+        "sha256": "80b4bc552e6c09e3c87fe6ba2132d7c72377def305253291141bb164b083aee5",
+        "size_bytes": 3370,
+        "size_pretty": "3.3 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/abaqus/timber_modal_calculix.inp"
+      }
+    },
+    "avs": {
+      "2d_mesh.avs": {
+        "sha256": "b181c0b118f2e167acbe95909c86b0c344a411ce850f0b7277e0c7a08fefb0e4",
+        "size_bytes": 6701,
+        "size_pretty": "6.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/avs/2d_mesh.avs"
+      }
+    },
+    "dolfin": {
+      "square.xml": {
+        "sha256": "cf0756893dbaafe7af54568448876cef67af838fa77de556e615f340e9d91822",
+        "size_bytes": 228168,
+        "size_pretty": "222.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/dolfin/square.xml"
+      }
+    },
+    "flac3d": {
+      "flac3d_mesh_ex.f3grid": {
+        "sha256": "5498167a42b956782c2b4c963126295fbccc69660ff07068a11ef1131c5ecf48",
+        "size_bytes": 17428,
+        "size_pretty": "17.0 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/flac3d/flac3d_mesh_ex.f3grid"
+      }
+    },
+    "gmsh": {
+      "insulated-2.2.msh": {
+        "sha256": "e948c04847537cffd8b00fbcc4d5add982d18c76cab2200635d43b84ded08523",
+        "size_bytes": 5479,
+        "size_pretty": "5.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/gmsh/insulated-2.2.msh"
+      },
+      "insulated-4.1.msh": {
+        "sha256": "4cc31fc8b786fbddb66c2a5765daf7a14c420d26894076ec0a5771315e487378",
+        "size_bytes": 5570,
+        "size_pretty": "5.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/gmsh/insulated-4.1.msh"
+      }
+    },
+    "mdpa": {
+      "cube.mdpa": {
+        "sha256": "e968f5095def82e373f7fe685f6a9c0b886546c38749764050f25e36c30907e8",
+        "size_bytes": 129720,
+        "size_pretty": "126.7 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mdpa/cube.mdpa"
+      },
+      "spatial_statistics.mdpa": {
+        "sha256": "09b5af1bdea26d5a73ea48082cf124d6c1223092bb82da6c806156c1f4a2b9ce",
+        "size_bytes": 2481,
+        "size_pretty": "2.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mdpa/spatial_statistics.mdpa"
+      }
+    },
+    "medit": {
+      "cube86.mesh": {
+        "sha256": "3ecbf7b48edc448fcbe2d28aba387c5d77ec535c6ebbd2977325101afd7834e8",
+        "size_bytes": 3331,
+        "size_pretty": "3.3 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/medit/cube86.mesh"
+      },
+      "cube_mmg.mesh": {
+        "sha256": "b38628c041549facfc157c4428e436f631d1b60232b5ecc721b7daf1c093c514",
+        "size_bytes": 767,
+        "size_pretty": "767 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/medit/cube_mmg.mesh"
+      },
+      "cube_mmgs.mesh": {
+        "sha256": "b38628c041549facfc157c4428e436f631d1b60232b5ecc721b7daf1c093c514",
+        "size_bytes": 767,
+        "size_pretty": "767 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/medit/cube_mmgs.mesh"
+      },
+      "hch_strct.4.be.meshb": {
+        "sha256": "7bc3a876b24bf2a56399e6ebe9dae5a50baf3eb7005e74efc99e0ab4814bc491",
+        "size_bytes": 20308,
+        "size_pretty": "19.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/medit/hch_strct.4.be.meshb"
+      },
+      "hch_strct.4.meshb": {
+        "sha256": "066fd5060749b6399831f1af0306c05246e4de01042eb051048e916d2652d709",
+        "size_bytes": 20280,
+        "size_pretty": "19.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/medit/hch_strct.4.meshb"
+      },
+      "sphere_mixed.1.meshb": {
+        "sha256": "e2d9a8b96372cfb4a61ff5663ced88ad2c56d602e9b1610d9a40abed5b7ddfdb",
+        "size_bytes": 371572,
+        "size_pretty": "362.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/medit/sphere_mixed.1.meshb"
+      }
+    },
+    "mesh": {
+      "amr-hex.mesh": {
+        "sha256": "d3cd805466adf4ed5d92af128b38ed5698b1a05c1571ff7ec0459c4d1d006540",
+        "size_bytes": 9156,
+        "size_pretty": "8.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/amr-hex.mesh"
+      },
+      "amr-quad.mesh": {
+        "sha256": "f85f071d2c61465a407d4481bf7b40f1642c1f83c0bab6a8097696887edc6fa0",
+        "size_bytes": 1524,
+        "size_pretty": "1.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/amr-quad.mesh"
+      },
+      "ball-nurbs.mesh": {
+        "sha256": "e6c1d231cdfb099d19936c1007e42c62d0c6876ee93149e2f8a4ddab51c05282",
+        "size_bytes": 29759,
+        "size_pretty": "29.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/ball-nurbs.mesh"
+      },
+      "beam-hex-nurbs.mesh": {
+        "sha256": "48e7161f69e7dac23cd780bc1c3c60652cd523a858552193e9ccc7eb90615632",
+        "size_bytes": 927,
+        "size_pretty": "927 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/beam-hex-nurbs.mesh"
+      },
+      "beam-hex.mesh": {
+        "sha256": "6d8124e2ddea2ef3bb75d7a88e1c75c80eb488c2046f18d26b2e7d59b07b6fcc",
+        "size_bytes": 1155,
+        "size_pretty": "1.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/beam-hex.mesh"
+      },
+      "beam-quad-amr.mesh": {
+        "sha256": "50d0e8a0fe06257c3b4d814e3e7b27aefd96155ed731ff7b3dcfb419e451231a",
+        "size_bytes": 1216,
+        "size_pretty": "1.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/beam-quad-amr.mesh"
+      },
+      "beam-quad-nurbs-sf.mesh": {
+        "sha256": "1d7fd76fa0c09d2759dc3ab690f5ff8724ea0559a906d67d3368644b3aea365c",
+        "size_bytes": 622,
+        "size_pretty": "622 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/beam-quad-nurbs-sf.mesh"
+      },
+      "beam-quad-nurbs.mesh": {
+        "sha256": "63bbe93ae89da83e69188fc3da602a8d62061209d4b465146c63214187ec6556",
+        "size_bytes": 549,
+        "size_pretty": "549 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/beam-quad-nurbs.mesh"
+      },
+      "beam-quad.mesh": {
+        "sha256": "6983bd900cae4047590f6ac8a59f6ea48b0058da1f5102aeae135d32cf9681e7",
+        "size_bytes": 568,
+        "size_pretty": "568 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/beam-quad.mesh"
+      },
+      "beam-tet.mesh": {
+        "sha256": "2629bed57a86ec10c8eb41264cbc23d65c4b715e38fc8b4e94da126177dc228d",
+        "size_bytes": 1972,
+        "size_pretty": "1.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/beam-tet.mesh"
+      },
+      "beam-tri.mesh": {
+        "sha256": "06d1d6ce7708950f26b406ddfa97337617b4754781b6e33eb427ea831abc339e",
+        "size_bytes": 641,
+        "size_pretty": "641 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/beam-tri.mesh"
+      },
+      "beam-wedge.mesh": {
+        "sha256": "2d177cf0500f5021e321f82869d7b59349ffbc1244d140dba7cb25d86ae40167",
+        "size_bytes": 1009,
+        "size_pretty": "1009 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/beam-wedge.mesh"
+      },
+      "channel-bifurcation-2d.mesh": {
+        "sha256": "399415eff5c11f0d2f1e4f9c4e52ce953ecea97c53dd73c0ff8ab0bd0cbb37cb",
+        "size_bytes": 1368,
+        "size_pretty": "1.3 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/channel-bifurcation-2d.mesh"
+      },
+      "compass.mesh": {
+        "sha256": "bc906dfb7bbb39ff2738eca8d9aa4249cd336ee2d26cf9065de287d43c4ee638",
+        "size_bytes": 1195,
+        "size_pretty": "1.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/compass.mesh"
+      },
+      "cube-nurbs.mesh": {
+        "sha256": "000eafe1a335ef43183fdab2793aa07927d698182710ff7df636adbb73fc9d8d",
+        "size_bytes": 544,
+        "size_pretty": "544 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/cube-nurbs.mesh"
+      },
+      "diag-segment-2d.mesh": {
+        "sha256": "2032ffd28a333a39ea6943aaf33b1e6a1c1db23c6cbaa0e84ac27d491d31face",
+        "size_bytes": 323,
+        "size_pretty": "323 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/diag-segment-2d.mesh"
+      },
+      "diag-segment-3d.mesh": {
+        "sha256": "00a123126d241bb530fbf355ed5efc0c7fa1325d5edfb6a442fb42cb60527b6e",
+        "size_bytes": 342,
+        "size_pretty": "342 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/diag-segment-3d.mesh"
+      },
+      "disc-nurbs.mesh": {
+        "sha256": "0dbfdaa7270380a3b2cb7afd93cbcea6512b7d3a596d148ca78b74182242e880",
+        "size_bytes": 852,
+        "size_pretty": "852 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/disc-nurbs.mesh"
+      },
+      "equilateral-pyramid.mesh": {
+        "sha256": "55b4bc52cd72f658ba99166bb1df4a4498b808a8f992a45ffa592f18be071f63",
+        "size_bytes": 392,
+        "size_pretty": "392 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/equilateral-pyramid.mesh"
+      },
+      "escher-p2.mesh": {
+        "sha256": "1cce5af8a88af9ddfbf6defd34b32402a35b6450b02d65f87578092c36bf66f3",
+        "size_bytes": 4824,
+        "size_pretty": "4.7 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/escher-p2.mesh"
+      },
+      "escher-p3.mesh": {
+        "sha256": "21ac97d50128298eadf0562854728ff7594c3393ec7bed5a5bbacb2d1e3677e3",
+        "size_bytes": 10457,
+        "size_pretty": "10.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/escher-p3.mesh"
+      },
+      "escher.mesh": {
+        "sha256": "9b57c9d3bf3247fd6646a5b726d199026106cd4e773f5a466623f81a1a0d97c9",
+        "size_bytes": 1960,
+        "size_pretty": "1.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/escher.mesh"
+      },
+      "fichera-amr.mesh": {
+        "sha256": "1f293dc8da798f6386e8e8a56d211dec74909d202bd6097dca833e856121fa4b",
+        "size_bytes": 40089,
+        "size_pretty": "39.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/fichera-amr.mesh"
+      },
+      "fichera-mixed-16.mesh": {
+        "sha256": "98108b3fa35d091e85fcd7f540d9527908cf78bb2d12d4afe2de9c87cd0974e8",
+        "size_bytes": 1346,
+        "size_pretty": "1.3 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/fichera-mixed-16.mesh"
+      },
+      "fichera-mixed-p2.mesh": {
+        "sha256": "7200d8401be87784dc79ecc5d325bd41c4cb2ba6e117cdb1c67e1895e610a4f9",
+        "size_bytes": 7092,
+        "size_pretty": "6.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/fichera-mixed-p2.mesh"
+      },
+      "fichera-mixed.mesh": {
+        "sha256": "c334ec7e4a27f644a35e87085b278fca9baadf553c67406d636b50aceded1a18",
+        "size_bytes": 1194,
+        "size_pretty": "1.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/fichera-mixed.mesh"
+      },
+      "fichera-q2.mesh": {
+        "sha256": "8b5fc38fdeb5368fb7f10fcdeed1d3b1145990cd7188d5212751a4e711b6c173",
+        "size_bytes": 4155,
+        "size_pretty": "4.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/fichera-q2.mesh"
+      },
+      "fichera-q3.mesh": {
+        "sha256": "0ed887642dba9e267ce252afb9cdf68077c3ed555be8116309029a91e6cbf649",
+        "size_bytes": 9783,
+        "size_pretty": "9.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/fichera-q3.mesh"
+      },
+      "fichera-quad-mixed.mesh": {
+        "sha256": "701e3a464db743eb35dedee1b7f01676722aa54965081ea4f0ed7f9041d857d8",
+        "size_bytes": 422,
+        "size_pretty": "422 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/fichera-quad-mixed.mesh"
+      },
+      "fichera-quad.mesh": {
+        "sha256": "68dd55788e91eff578e5bbb6723ff4c02742cfb9a94392f91c9f6ba34a21c1da",
+        "size_bytes": 384,
+        "size_pretty": "384 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/fichera-quad.mesh"
+      },
+      "fichera.mesh": {
+        "sha256": "dfd44c350e88a41aea6328bba5fd6080dfd68be91eac91b517fa5b21598f3faa",
+        "size_bytes": 948,
+        "size_pretty": "948 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/fichera.mesh"
+      },
+      "hexagon.mesh": {
+        "sha256": "7ac5e07b487133c339b09848b4f06113f03277eb9105ee86d3c4327302e5b54f",
+        "size_bytes": 497,
+        "size_pretty": "497 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/hexagon.mesh"
+      },
+      "inline-hex.mesh": {
+        "sha256": "3cf08c2edf3fd91588120e06ef92d6187abc14680cec7162857b38453e31d7a5",
+        "size_bytes": 82,
+        "size_pretty": "82 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/inline-hex.mesh"
+      },
+      "inline-pyramid.mesh": {
+        "sha256": "ec575ab1cdc8a644ae409ff89937ec147133f10228fafe7dabd49559165e9e7a",
+        "size_bytes": 86,
+        "size_pretty": "86 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/inline-pyramid.mesh"
+      },
+      "inline-quad.mesh": {
+        "sha256": "fa0f248d1002d12aa1da2128d4d78e089800396275d9066b0ebaad88df112327",
+        "size_bytes": 67,
+        "size_pretty": "67 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/inline-quad.mesh"
+      },
+      "inline-segment.mesh": {
+        "sha256": "970ea8d01c508bf64ed9c12a59e4a8dff82671df71b1aad683683268f3f3e462",
+        "size_bytes": 54,
+        "size_pretty": "54 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/inline-segment.mesh"
+      },
+      "inline-tet.mesh": {
+        "sha256": "e108bea1c2226d608c46027f9280510255c10f400d05e1523aabb94e67553b15",
+        "size_bytes": 82,
+        "size_pretty": "82 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/inline-tet.mesh"
+      },
+      "inline-tri.mesh": {
+        "sha256": "bbf6ffa0d7edacdd8301ad4a58ec35c760346e082c7d552a87831c4ac8c02057",
+        "size_bytes": 66,
+        "size_pretty": "66 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/inline-tri.mesh"
+      },
+      "inline-wedge.mesh": {
+        "sha256": "f9bf5ad8be3d2b27fa76c8bfe5d581fd6357aa6052d1f5b40fd85477772af8b9",
+        "size_bytes": 84,
+        "size_pretty": "84 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/inline-wedge.mesh"
+      },
+      "klein-bottle.mesh": {
+        "sha256": "e69c95130711fe48a2a6c515a1319c521bfe307d0c2023655182ce7dd4eccadf",
+        "size_bytes": 36724,
+        "size_pretty": "35.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/klein-bottle.mesh"
+      },
+      "klein-donut.mesh": {
+        "sha256": "2dfa68c27218567a3aaaf7de2701cbc935fe3e0d8cc904c9237327b18a23c863",
+        "size_bytes": 38061,
+        "size_pretty": "37.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/klein-donut.mesh"
+      },
+      "l-shape.mesh": {
+        "sha256": "964563ce9eb3b8f32353279ea8e64dabddf19d960cb80ecdf9cce85919e87871",
+        "size_bytes": 384,
+        "size_pretty": "384 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/l-shape.mesh"
+      },
+      "llnl-p3.mesh": {
+        "sha256": "065d428433458a40c584ea49aae854d1117af951732e25c23b991713556869ed",
+        "size_bytes": 7375,
+        "size_pretty": "7.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/llnl-p3.mesh"
+      },
+      "mfem.mesh": {
+        "sha256": "e861b362896ad0df9df1022f6ed5554e674652ee0677263dc2318c8ebf82098f",
+        "size_bytes": 6843,
+        "size_pretty": "6.7 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/mfem.mesh"
+      },
+      "mobius-strip.mesh": {
+        "sha256": "0ba3edb3b09ab386c2e34776431d2b5757fd250dd8db6329626ab11bc6f2d310",
+        "size_bytes": 5738,
+        "size_pretty": "5.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/mobius-strip.mesh"
+      },
+      "nc-nurbs3d.mesh": {
+        "sha256": "996d51fa401e223d006b139081201b5dde229beae958104c523aa048e2b30902",
+        "size_bytes": 3876,
+        "size_pretty": "3.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/nc-nurbs3d.mesh"
+      },
+      "nc3-nurbs.mesh": {
+        "sha256": "bc8f05eb9341f5849cca949f3b4f61fc314c9e7e47882edbe2a9443c20c28009",
+        "size_bytes": 717,
+        "size_pretty": "717 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/nc3-nurbs.mesh"
+      },
+      "nurbs-segments2d-patches-multispan.mesh": {
+        "sha256": "17072b4bea4be07aaee2d2fe205f17bce0fd9c163ef0978697dcd1beb1072153",
+        "size_bytes": 920,
+        "size_pretty": "920 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/nurbs-segments2d-patches-multispan.mesh"
+      },
+      "nurbs-segments2d-patches.mesh": {
+        "sha256": "dac42eed4d36cf7bf8d887328360319ad43f000bca47ab12f9d65fcc9d5441a2",
+        "size_bytes": 801,
+        "size_pretty": "801 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/nurbs-segments2d-patches.mesh"
+      },
+      "nurbs-segments2d.mesh": {
+        "sha256": "3110646d89b3f8183725335a1fd5b3e08f548f937f7521eaa50d7b0e408fb537",
+        "size_bytes": 760,
+        "size_pretty": "760 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/nurbs-segments2d.mesh"
+      },
+      "nurbs-segments3d-patches.mesh": {
+        "sha256": "5157bee2dce917609e661411f487c45f638daf6148e1b714e6eca822cd754704",
+        "size_bytes": 846,
+        "size_pretty": "846 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/nurbs-segments3d-patches.mesh"
+      },
+      "nurbs-segments3d.mesh": {
+        "sha256": "7cfb2c2073e7740b8dcea329268342e85abded3131b2820f9a0379bdb3e13ce0",
+        "size_bytes": 820,
+        "size_pretty": "820 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/nurbs-segments3d.mesh"
+      },
+      "octahedron.mesh": {
+        "sha256": "f36c4ddc85f9dc701d1197b22e9a22e7fbb7eda7edf474052b51bb9f75a09645",
+        "size_bytes": 406,
+        "size_pretty": "406 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/octahedron.mesh"
+      },
+      "periodic-cube.mesh": {
+        "sha256": "c9796a5d1f2fc984bed1e3d853b9773c41c8f34bc3f0bef943c73213f819a82a",
+        "size_bytes": 7931,
+        "size_pretty": "7.7 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/periodic-cube.mesh"
+      },
+      "periodic-hexagon.mesh": {
+        "sha256": "65b0174c6f3db11fe71720f7c8342e18c95d353c4b2e36eb63da4689a43756c7",
+        "size_bytes": 1574,
+        "size_pretty": "1.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/periodic-hexagon.mesh"
+      },
+      "periodic-segment.mesh": {
+        "sha256": "42ed69b6aad16e4ecdd0f279fc5c7c99892e5b93bedacad4302ced2d661fcd65",
+        "size_bytes": 437,
+        "size_pretty": "437 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/periodic-segment.mesh"
+      },
+      "periodic-square.mesh": {
+        "sha256": "dc2aede852cb3a8eabaf0deca6c8907fc2e64811806956dfb95def35c9075f15",
+        "size_bytes": 1181,
+        "size_pretty": "1.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/periodic-square.mesh"
+      },
+      "pipe-nurbs-2d.mesh": {
+        "sha256": "f271d7577aaae1ea4cf885e1291fdf15b19bc9430900f3cf66c3c70f63c50723",
+        "size_bytes": 507,
+        "size_pretty": "507 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/pipe-nurbs-2d.mesh"
+      },
+      "pipe-nurbs-log.mesh": {
+        "sha256": "14c094e27e665dc5cf947bd4e4922c906a2a75cf55d7505ce8d027118885108a",
+        "size_bytes": 3261,
+        "size_pretty": "3.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/pipe-nurbs-log.mesh"
+      },
+      "pipe-nurbs.mesh": {
+        "sha256": "50ea6997458e986e7801716b28af1148275ad9afa5dfe485dbf32c13a84877b7",
+        "size_bytes": 3211,
+        "size_pretty": "3.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/pipe-nurbs.mesh"
+      },
+      "ref-cube.mesh": {
+        "sha256": "79704b5f458369be695cd65a8214d7b2afa2dd5e48302770e9337db2d55c135f",
+        "size_bytes": 381,
+        "size_pretty": "381 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/ref-cube.mesh"
+      },
+      "ref-prism.mesh": {
+        "sha256": "c4206e3471dd7f40a9d84e7a944e61036db65a88612598abe230911c831b32cf",
+        "size_bytes": 349,
+        "size_pretty": "349 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/ref-prism.mesh"
+      },
+      "ref-pyramid.mesh": {
+        "sha256": "b273bf434f61fdf4b7a0010e72a18e4f639b4da8e07df678fb26ce4999ad6102",
+        "size_bytes": 355,
+        "size_pretty": "355 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/ref-pyramid.mesh"
+      },
+      "ref-segment.mesh": {
+        "sha256": "b35482f786ba276e4496b6ad3f8e73009bcfdbb724d2b44834b34f9e1864dc3c",
+        "size_bytes": 265,
+        "size_pretty": "265 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/ref-segment.mesh"
+      },
+      "ref-square.mesh": {
+        "sha256": "df8f062bdbf1f02d3d65aceb7801c4144cee36f8d5a24bd510b1dc5b87d704c2",
+        "size_bytes": 301,
+        "size_pretty": "301 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/ref-square.mesh"
+      },
+      "ref-tetrahedron.mesh": {
+        "sha256": "5eebebb5e7e915df03a75c1143a3d45b904799ebf38ffd6b6b53f6da46bc9532",
+        "size_bytes": 317,
+        "size_pretty": "317 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/ref-tetrahedron.mesh"
+      },
+      "ref-triangle.mesh": {
+        "sha256": "2844cfbbca6f8ccebc69ba56200b3819580cebdfe2b0d17f30d3c93b2a3e7181",
+        "size_bytes": 287,
+        "size_pretty": "287 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/ref-triangle.mesh"
+      },
+      "rt-2d-p4-tri.mesh": {
+        "sha256": "7ab3b452600e1d29ec3ee416a37f8b7734a0f463eac708ed69fe340a6cc76ab5",
+        "size_bytes": 6782,
+        "size_pretty": "6.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/rt-2d-p4-tri.mesh"
+      },
+      "rt-2d-q3.mesh": {
+        "sha256": "d904129523effeb302e1b66f2ff805368cfd59eb964567971f2c721b6235fa82",
+        "size_bytes": 15015,
+        "size_pretty": "14.7 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/rt-2d-q3.mesh"
+      },
+      "segment-nurbs.mesh": {
+        "sha256": "3e368f41d4afff9d308708972398beb6b2aa1676dff7a72fbfe8ea58e32ac586",
+        "size_bytes": 327,
+        "size_pretty": "327 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/segment-nurbs.mesh"
+      },
+      "square-disc-nurbs-patch.mesh": {
+        "sha256": "8d1cdaf88ec389be825e110018c3c0a49fe7201c7ca0b8714a8ca391437ff0d4",
+        "size_bytes": 1805,
+        "size_pretty": "1.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/square-disc-nurbs-patch.mesh"
+      },
+      "square-disc-nurbs.mesh": {
+        "sha256": "4252d9b53d807a6a916f89f1937aa8639fa51a5079b16521b328b1e12b035978",
+        "size_bytes": 982,
+        "size_pretty": "982 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/square-disc-nurbs.mesh"
+      },
+      "square-disc-p2.mesh": {
+        "sha256": "9451e1bb44cd846691ddbd5c1ff865353a4bd1b3d537d0b19525428a16dc8a14",
+        "size_bytes": 8630,
+        "size_pretty": "8.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/square-disc-p2.mesh"
+      },
+      "square-disc-p3.mesh": {
+        "sha256": "823f4a892546a285c1b4ced3215975c08fed0c81d2ff5f8f5149a7eaea99d45c",
+        "size_bytes": 15890,
+        "size_pretty": "15.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/square-disc-p3.mesh"
+      },
+      "square-disc-surf.mesh": {
+        "sha256": "fb39a90a0e1f5d5e3a4d8880323abc36cc6294770c5feb5574033c9038066fae",
+        "size_bytes": 12768,
+        "size_pretty": "12.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/square-disc-surf.mesh"
+      },
+      "square-disc.mesh": {
+        "sha256": "7b34e1b4aa6a5dc00a4300829d027889f5b3bf5c3c1b131b64ff70440a96810b",
+        "size_bytes": 4209,
+        "size_pretty": "4.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/square-disc.mesh"
+      },
+      "square-mixed.mesh": {
+        "sha256": "ed75d50c17873e5f6ac16ececd43e1e10450cb9a29324e55b2e5afddd016f874",
+        "size_bytes": 919,
+        "size_pretty": "919 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/square-mixed.mesh"
+      },
+      "square-nurbs-pw.mesh": {
+        "sha256": "fb749143c67dd1e9024e2a7c97a46f61134670866f125187f3ba29a1ac6f5080",
+        "size_bytes": 575,
+        "size_pretty": "575 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/square-nurbs-pw.mesh"
+      },
+      "square-nurbs.mesh": {
+        "sha256": "26fce1bd06fcbfec8f6f7aac14d16673a8ef725bd78191e69dd1788a6685ca08",
+        "size_bytes": 398,
+        "size_pretty": "398 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/square-nurbs.mesh"
+      },
+      "star-hilbert.mesh": {
+        "sha256": "78518680ae11a4ac45ab469fb329ed0ae11fc208f68c3d50407bcbe6447917a6",
+        "size_bytes": 1173,
+        "size_pretty": "1.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/star-hilbert.mesh"
+      },
+      "star-mixed-p2.mesh": {
+        "sha256": "5ed13333e2d9233ab39e2a6b64e9f0bacd7fba8ed0e095ad73e95c0c9622af8f",
+        "size_bytes": 3747,
+        "size_pretty": "3.7 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/star-mixed-p2.mesh"
+      },
+      "star-mixed.mesh": {
+        "sha256": "c0d6752f1b4906144f2da6992bee590aa26ff8cf0c30718b54bed82951a981f8",
+        "size_bytes": 1320,
+        "size_pretty": "1.3 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/star-mixed.mesh"
+      },
+      "star-q2.mesh": {
+        "sha256": "ff4cde39e1d53c46221d68bfe7f346317fb273d753364b6f93992823a01f81ba",
+        "size_bytes": 2640,
+        "size_pretty": "2.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/star-q2.mesh"
+      },
+      "star-q3.mesh": {
+        "sha256": "31b8f07a430dd6cdf9db6bd1ee666196ba4fe46c054e92d8729ad9d663c78da5",
+        "size_bytes": 4717,
+        "size_pretty": "4.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/star-q3.mesh"
+      },
+      "star-surf.mesh": {
+        "sha256": "0e4658e878c8c4b34cceac822696ef108072e3bde90ee335993f0c37fc811591",
+        "size_bytes": 3673,
+        "size_pretty": "3.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/star-surf.mesh"
+      },
+      "star.mesh": {
+        "sha256": "374d20f1cd3457de6d398b33fb69f685215dd5cf8e23816f829a33f8b62bf210",
+        "size_bytes": 1212,
+        "size_pretty": "1.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/star.mesh"
+      },
+      "tinyzoo-3d.mesh": {
+        "sha256": "c22501a38d5a21d3df96d129ffd7b73f3e497174f2cc42fe0f6fa803974653b7",
+        "size_bytes": 557,
+        "size_pretty": "557 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/tinyzoo-3d.mesh"
+      },
+      "toroid-hex.mesh": {
+        "sha256": "a22dfd1788ae27e780dba1541f7365976d4812e0b5cc43f46eff039802f5f84a",
+        "size_bytes": 10605,
+        "size_pretty": "10.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/toroid-hex.mesh"
+      },
+      "toroid-wedge.mesh": {
+        "sha256": "a29d5c657e54178e49bd5633e1da1cb14380e2a508da128729becb20e0db1bed",
+        "size_bytes": 6711,
+        "size_pretty": "6.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/mesh/toroid-wedge.mesh"
+      }
+    },
+    "nastran": {
+      "cylinder.fem": {
+        "sha256": "d94291be93499c166bcdf317b071d08345c3cb870b8c4ae90d27e2d620661f99",
+        "size_bytes": 11786,
+        "size_pretty": "11.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/nastran/cylinder.fem"
+      },
+      "cylinder_cells_first.fem": {
+        "sha256": "7b6d7151d15f16f2267727e474a19388d50106465ebf26af9a1496c7a9edb404",
+        "size_bytes": 11447,
+        "size_pretty": "11.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/nastran/cylinder_cells_first.fem"
+      }
+    },
+    "netgen": {
+      "periodic_1d.vol": {
+        "sha256": "6fd137054fdea70eb0e23779902884e72d6323d45733eadb88366bf30b8da94b",
+        "size_bytes": 9854,
+        "size_pretty": "9.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/netgen/periodic_1d.vol"
+      },
+      "periodic_2d.vol": {
+        "sha256": "097236ae257101a7aa4827f898bc124ea477ad3741add9789a8aaeaf842c7532",
+        "size_bytes": 7174,
+        "size_pretty": "7.0 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/netgen/periodic_2d.vol"
+      },
+      "periodic_3d.vol": {
+        "sha256": "94a96d5fda6a8233f6e46ab937fe625659cf58010818a0234cda0f84f07a7236",
+        "size_bytes": 19433,
+        "size_pretty": "19.0 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/netgen/periodic_3d.vol"
+      }
+    },
+    "obj": {
+      "alligator.obj": {
+        "sha256": "108a1f4319e4a069b2bfbee3b5f278551501d75c473bb705c62e2bef872ad544",
+        "size_bytes": 200723,
+        "size_pretty": "196.0 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/alligator.obj"
+      },
+      "armadillo.obj": {
+        "sha256": "d2fd040334c12b16804fbcb9962391232cc24708244617f931baaa871210563e",
+        "size_bytes": 4634780,
+        "size_pretty": "4.4 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/armadillo.obj"
+      },
+      "ateneam.obj": {
+        "sha256": "5c698eb047ff07b08ef9a11aa9c309e6eb95b4b182b3f4c4ee133a78b925a166",
+        "size_bytes": 1089080,
+        "size_pretty": "1.0 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/ateneam.obj"
+      },
+      "beast.obj": {
+        "sha256": "74c5fecd883b761bc1b2bb6c82fe94d3b3b450297ab561e83c0e63c7ed46abe8",
+        "size_bytes": 3334529,
+        "size_pretty": "3.2 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/beast.obj"
+      },
+      "beetle-alt.obj": {
+        "sha256": "4528700590e20363b27e8ab77a4af6199a59b94ab6b849c9ba5a4a36f7c5b8cd",
+        "size_bytes": 1361270,
+        "size_pretty": "1.3 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/beetle-alt.obj"
+      },
+      "beetle.obj": {
+        "sha256": "46ee9dcbec84b8d1b8f0d743ab1c91b1ed81378672fc0516e7afff5172d7c9b7",
+        "size_bytes": 124863,
+        "size_pretty": "121.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/beetle.obj"
+      },
+      "bimba.obj": {
+        "sha256": "5e2beb15d8f5852383eb44a95f227097e3037b2e7a3e3ea1494931fd7c3b1e72",
+        "size_bytes": 7990636,
+        "size_pretty": "7.6 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/bimba.obj"
+      },
+      "cheburashka.obj": {
+        "sha256": "b2ac59bc1112f1b3e086ac0285d9be7fdefef278a32151a79e650414b2244f3f",
+        "size_bytes": 422829,
+        "size_pretty": "412.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/cheburashka.obj"
+      },
+      "cow.obj": {
+        "sha256": "37b72a06f93b68dc2c9035d7bbfa7d2f299d48ca9a6357cff6913980ef119eb6",
+        "size_bytes": 326919,
+        "size_pretty": "319.3 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/cow.obj"
+      },
+      "elepham.obj": {
+        "sha256": "3c8a6c596e04af756de504d0809926396b6e9324c6a4a54a86211ee115bd49a8",
+        "size_bytes": 2971903,
+        "size_pretty": "2.8 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/elepham.obj"
+      },
+      "elephav.obj": {
+        "sha256": "863bb0ad077f2af5c05e70338b9a2643c840208d26984141c731e95b7bcc1b6a",
+        "size_bytes": 76928,
+        "size_pretty": "75.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/elephav.obj"
+      },
+      "fandisk.obj": {
+        "sha256": "ea5bab2fbf545b1915f0d9faf6cc61ff8c18e0d8174ad61f8e35de15d8f6e3f8",
+        "size_bytes": 379559,
+        "size_pretty": "370.7 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/fandisk.obj"
+      },
+      "happy.obj": {
+        "sha256": "8ce5a4a7161efd97dabc8eeb281824fac1b17c9ba2cb0c2c6f350cd05982058c",
+        "size_bytes": 4648727,
+        "size_pretty": "4.4 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/happy.obj"
+      },
+      "homer.obj": {
+        "sha256": "b20b1391fd62964f65703d748514d86d747d1202d38e55e0f1addac7a5a10e8b",
+        "size_bytes": 369782,
+        "size_pretty": "361.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/homer.obj"
+      },
+      "horse.obj": {
+        "sha256": "d2e1beaa7e366b61746192345f552f09056c97bbd096cb31eac4b9fe467fa7aa",
+        "size_bytes": 4818311,
+        "size_pretty": "4.6 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/horse.obj"
+      },
+      "igea.obj": {
+        "sha256": "13dd57979295049c73830313772c379da4508e035551921686e2edc7de9bff0e",
+        "size_bytes": 9593281,
+        "size_pretty": "9.1 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/igea.obj"
+      },
+      "lucy.obj": {
+        "sha256": "ea54611a3466bc903a107fd825409344562b8c4a8f191bbdc88ce380bebd0911",
+        "size_bytes": 4664191,
+        "size_pretty": "4.4 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/lucy.obj"
+      },
+      "max-planck.obj": {
+        "sha256": "282b278f40cbf6f6054e95d9b7704e51f49c7a2c8d74a2d6977412e6f455ef06",
+        "size_bytes": 4573334,
+        "size_pretty": "4.4 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/max-planck.obj"
+      },
+      "mba1.obj": {
+        "sha256": "d039765a36f6fc4f0ac25d806433a8d0175cb9811f7f2647608c555d88fed1e5",
+        "size_bytes": 13898803,
+        "size_pretty": "13.3 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/mba1.obj"
+      },
+      "mba2.obj": {
+        "sha256": "d6642a14c4d411f2381f7f056baed0aeec58784dfcde834cca4e0f7ffe8a9822",
+        "size_bytes": 11599709,
+        "size_pretty": "11.1 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/mba2.obj"
+      },
+      "mni-surface-mesh.obj": {
+        "sha256": "9bf3d84fdf4bac566b45bb6b4dabb23099d93bd5a1c3476e89ad8ddf97c02194",
+        "size_bytes": 129191,
+        "size_pretty": "126.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/mni-surface-mesh.obj"
+      },
+      "nefertiti.obj": {
+        "sha256": "19e39748b145092878cc4faafd050505eb5991c5d3e497be2b4575673fa87968",
+        "size_bytes": 3660678,
+        "size_pretty": "3.5 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/nefertiti.obj"
+      },
+      "ogre.obj": {
+        "sha256": "b72e270246ec3bd91bd8e082c4acf462352680f09067813322903b4e1a3f6967",
+        "size_bytes": 3723236,
+        "size_pretty": "3.6 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/ogre.obj"
+      },
+      "rocker-arm.obj": {
+        "sha256": "590257e6d01e689354821d807854306c3bfbb02d9cca73404d5a4924f105c287",
+        "size_bytes": 665711,
+        "size_pretty": "650.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/rocker-arm.obj"
+      },
+      "spot.obj": {
+        "sha256": "0738b5e8608fed74e5e8c7aa8dd0af97b4b74f9f6cbf7aac84cd7e40b2e44a75",
+        "size_bytes": 330624,
+        "size_pretty": "322.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/spot.obj"
+      },
+      "stanford-bunny.obj": {
+        "sha256": "1eb35d1e21ce99e5ce911353b6be278990713448dd9e8f5c9387f9de39b32205",
+        "size_bytes": 2408417,
+        "size_pretty": "2.3 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/stanford-bunny.obj"
+      },
+      "star-wars-vader-tie-fighter.obj": {
+        "sha256": "595637d02489497885078e60990ee311e70e699882fac1ab7bf3ac2d2f729947",
+        "size_bytes": 11433883,
+        "size_pretty": "10.9 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/star-wars-vader-tie-fighter.obj"
+      },
+      "suzanne.obj": {
+        "sha256": "d8684326f9bd8cfc24d3d302c1042fa16f63d2e66e49ed56b413fa20bed271e6",
+        "size_bytes": 49137,
+        "size_pretty": "48.0 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/suzanne.obj"
+      },
+      "teapot.obj": {
+        "sha256": "1b5396fedd74b577e32cef41146582c2f2e1a050d5b4915193c0ac1ad4187ed4",
+        "size_bytes": 210614,
+        "size_pretty": "205.7 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/teapot.obj"
+      },
+      "tree.obj": {
+        "sha256": "8981e33746771778643a7479d4591da4dcdb59498703c2dacb8395129b8d3538",
+        "size_bytes": 125161,
+        "size_pretty": "122.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/tree.obj"
+      },
+      "utah_teapot.obj": {
+        "sha256": "45bd6f962ad4fcf406da8ca2cfc3cc123934595074987298df0db0a74781d4a3",
+        "size_bytes": 2591232,
+        "size_pretty": "2.5 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/utah_teapot.obj"
+      },
+      "venusm.obj": {
+        "sha256": "1feb7d058e86ab69869f762f14e79b21ae54d129ea12cf7f99cac740a324d737",
+        "size_bytes": 3221966,
+        "size_pretty": "3.1 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/venusm.obj"
+      },
+      "woody.obj": {
+        "sha256": "8f9c1657fd4ed2e5d5cc0f65ae35ff49d338cf09ae51f57c496353c0b2c53209",
+        "size_bytes": 40046,
+        "size_pretty": "39.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/woody.obj"
+      },
+      "xyzrgb_dragon.obj": {
+        "sha256": "5d7106b58f2ac0d017758480fe607c5b6bf7d6201d930d2dd1ba7022c4d281c0",
+        "size_bytes": 11817802,
+        "size_pretty": "11.3 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/obj/xyzrgb_dragon.obj"
+      }
+    },
+    "off": {
+      "2triangles.off": {
+        "sha256": "6b73483dd4cf602332373adcc73338706815bfab25855a4b3d50001b51e5850c",
+        "size_bytes": 98,
+        "size_pretty": "98 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/off/2triangles.off"
+      },
+      "ballA.off": {
+        "sha256": "33801d9265c9b54bcd9a4dda86edd2c7cf33640f25bbc9d41982119b4b442c69",
+        "size_bytes": 106431,
+        "size_pretty": "103.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/off/ballA.off"
+      },
+      "comments.off": {
+        "sha256": "0c02abcf257159028ade030d80866f159b2157c1d0201ab426a50376d298f161",
+        "size_bytes": 618,
+        "size_pretty": "618 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/off/comments.off"
+      },
+      "cube.off": {
+        "sha256": "d6e7cc6ebe8a0b766554815ec55f83a7c9590693caefa85c72f4a8e6edef08ad",
+        "size_bytes": 219,
+        "size_pretty": "219 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/off/cube.off"
+      }
+    },
+    "ply": {
+      "Armadillo.ply": {
+        "sha256": "483563fca686b66168e1e45339c50e71a5dc8a526a04a545a16b9237d5eaa023",
+        "size_bytes": 6919168,
+        "size_pretty": "6.6 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/Armadillo.ply"
+      },
+      "DC_border.ply": {
+        "sha256": "e6f56eb1d1ad9c7c834668002271552f88c4385db03213c244cb368e6a4b88cf",
+        "size_bytes": 15959324,
+        "size_pretty": "15.2 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/DC_border.ply"
+      },
+      "Lucy100k_binary.ply": {
+        "sha256": "837f769e67155dc4a6e9a90683a61d6f6b4571a2a97d79586831011f450e66e2",
+        "size_bytes": 1900227,
+        "size_pretty": "1.8 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/Lucy100k_binary.ply"
+      },
+      "Unicorn_Stuffy_cleaned.ply": {
+        "sha256": "230f2c01196ab620a4e9ed26ba537e66df02ead47fdecb4ebb4faa68bd7c4348",
+        "size_bytes": 12302827,
+        "size_pretty": "11.7 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/Unicorn_Stuffy_cleaned.ply"
+      },
+      "bun_zipper_res4.ply": {
+        "sha256": "2ca4b1c9206eb2768f10eeb06f30d2dcf576c21f69243335660c896605d1f0ab",
+        "size_bytes": 34359,
+        "size_pretty": "33.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/bun_zipper_res4.ply"
+      },
+      "bunny.ply": {
+        "sha256": "442bdd8f35bf107005424bbd60100358cd57fa4711640766a5802a17d58f98ad",
+        "size_bytes": 3033235,
+        "size_pretty": "2.9 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/bunny.ply"
+      },
+      "cow.ply": {
+        "sha256": "939c5ae28f4204a0ed5b4ab2eb44720e53ac577d36c2a5c2406e44004cf861d4",
+        "size_bytes": 69307,
+        "size_pretty": "67.7 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/cow.ply"
+      },
+      "dolphins_ascii.ply": {
+        "sha256": "1246b1050ebc1e2e6b9de796a004bd3914e525546d402a5e286fbe6f13940c8e",
+        "size_bytes": 44623,
+        "size_pretty": "43.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/dolphins_ascii.ply"
+      },
+      "dolphins_be_binary.ply": {
+        "sha256": "179896e5fc2e3422d4dcad49e6442041df6e09a6e421701bc8965eb05d3221d1",
+        "size_bytes": 32388,
+        "size_pretty": "31.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/dolphins_be_binary.ply"
+      },
+      "dolphins_colored_ascii.ply": {
+        "sha256": "72e791131f2d1cffbfbd00d4114ee158847ada964569a87f6567bb7976975ed2",
+        "size_bytes": 55432,
+        "size_pretty": "54.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/dolphins_colored_ascii.ply"
+      },
+      "dolphins_le_binary.ply": {
+        "sha256": "d166156ab48d00d2fc27ef73fe790c40fd68467318cc4bd1f03337276014cabe",
+        "size_bytes": 32391,
+        "size_pretty": "31.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/dolphins_le_binary.ply"
+      },
+      "dragon.ply": {
+        "sha256": "fea87ff48f2aba22fb53e7b67c3ff3f7b8c2a3b3a0653af62c48bba67c6d5744",
+        "size_bytes": 33831477,
+        "size_pretty": "32.3 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/dragon.ply"
+      },
+      "gs_Halo_Believe.cleaned.compressed.ply": {
+        "sha256": "251df67d91895629cf46ece2ce71ae4e59be2ea382c154d6e010dfa635699c99",
+        "size_bytes": 5588747,
+        "size_pretty": "5.3 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/gs_Halo_Believe.cleaned.compressed.ply"
+      },
+      "hand.ply": {
+        "sha256": "be46c4a1f724666cc36f023b9cf9e8313b26a1bdcc419fa922a6af8da27974b3",
+        "size_bytes": 32642804,
+        "size_pretty": "31.1 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/hand.ply"
+      },
+      "happy.ply": {
+        "sha256": "2283371216d748a08376a3c88698e283cc8f18d10ced348d6d133051bcf217ab",
+        "size_bytes": 42619420,
+        "size_pretty": "40.6 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/happy.ply"
+      },
+      "horse.ply": {
+        "sha256": "89ec844c36725d727d94b156fa18d695c5af8ddcd9db1ebedea83fb0d8a889a1",
+        "size_bytes": 2424454,
+        "size_pretty": "2.3 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/horse.ply"
+      },
+      "igea.ply": {
+        "sha256": "75f065f8fefbb468363718a5df39cc73c89e97c2ce3fa8a3b0086a08bb466222",
+        "size_bytes": 3107641,
+        "size_pretty": "3.0 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/igea.ply"
+      },
+      "shark.ply": {
+        "sha256": "fbfd8eaa20b828b27bb2c11f109e1525ba9bf82323a3b8b7cd64503236bf7bca",
+        "size_bytes": 124011,
+        "size_pretty": "121.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/shark.ply"
+      },
+      "small_hornedlizard.compressed.ply": {
+        "sha256": "d841d0ada11f1918586c3f8e83ce8febc0eddbe2ad7c829523fd455881671c1f",
+        "size_bytes": 22621693,
+        "size_pretty": "21.6 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/small_hornedlizard.compressed.ply"
+      },
+      "spider.ply": {
+        "sha256": "c9f5ed57cf1fbc212b1a24b6768d7c2831953bca9e026d89fea36e525259016e",
+        "size_bytes": 261841,
+        "size_pretty": "255.7 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/spider.ply"
+      },
+      "tet.ply": {
+        "sha256": "26d0f95e29cb87cf129d3b794aad50a28bd4ead97760527e072452197cba3415",
+        "size_bytes": 381,
+        "size_pretty": "381 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/tet.ply"
+      },
+      "volume_3D_ply.ply": {
+        "sha256": "06da75803787514dc533b66f133b73440ba6419d3404b98bb400675fa7df7c4a",
+        "size_bytes": 576665,
+        "size_pretty": "563.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ply/volume_3D_ply.ply"
+      }
+    },
+    "stl": {
+      "20mm-xyz-cube.stl": {
+        "sha256": "22605742d8305430f1d803fc74cbe222333a9a6903339572171cd6b8b16c4d6c",
+        "size_bytes": 13084,
+        "size_pretty": "12.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/stl/20mm-xyz-cube.stl"
+      },
+      "box.STL": {
+        "sha256": "196ea36c66e96d56997af8a9a9effac779aac95d43b0bce49cf5a2befdec6b80",
+        "size_bytes": 447784,
+        "size_pretty": "437.3 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/stl/box.STL"
+      }
+    },
+    "su2": {
+      "mixgrid.su2": {
+        "sha256": "762370a2dec30b52b989794f1f06146f0331cb1f91efdd6674a907549b38e0e4",
+        "size_bytes": 4871,
+        "size_pretty": "4.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/su2/mixgrid.su2"
+      },
+      "square.su2": {
+        "sha256": "58c56bef6d32ae93e4c8ab6fbd5ab92676bd353ea0d160a702fd6bb101b4b16c",
+        "size_bytes": 859,
+        "size_pretty": "859 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/su2/square.su2"
+      }
+    },
+    "tecplot": {
+      "quad_zone_comma.tec": {
+        "sha256": "6e84134ac1b8c4d3b64c8505910fb7a3fd6ca1716a62bc318ae11bfc53283270",
+        "size_bytes": 360,
+        "size_pretty": "360 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/tecplot/quad_zone_comma.tec"
+      },
+      "quad_zone_multivar.tec": {
+        "sha256": "535e906f51481edcc71ed1d22caeccbca06b5b8624e16fbd188541409ad802ab",
+        "size_bytes": 367,
+        "size_pretty": "367 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/tecplot/quad_zone_multivar.tec"
+      },
+      "quad_zone_space.tec": {
+        "sha256": "3768182bcbf2052f05584cf424d70781eb195ef4a11313c0634f2e7996752f9b",
+        "size_bytes": 354,
+        "size_pretty": "354 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/tecplot/quad_zone_space.tec"
+      }
+    },
+    "tetgen": {
+      "mesh.ele": {
+        "sha256": "a03caba0ddba428ddaf06f408132f44bf925173a6209be06a3cd2d98298c56e0",
+        "size_bytes": 5376,
+        "size_pretty": "5.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/tetgen/mesh.ele"
+      },
+      "mesh.node": {
+        "sha256": "a6002594138fc8dfc2e427e1c8f95c9dac1bc9434d1a9d00264f606513e8739b",
+        "size_bytes": 8724,
+        "size_pretty": "8.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/tetgen/mesh.node"
+      }
+    },
+    "ugrid": {
+      "pyra_cube.ugrid": {
+        "sha256": "219511b05b1918906bd1c81a7a10931ba670fc80852c768002d37afd223be52d",
+        "size_bytes": 182,
+        "size_pretty": "182 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/ugrid/pyra_cube.ugrid"
+      }
+    },
+    "vtk": {
+      "AngularSector.vtk": {
+        "sha256": "a204a535171643230228f7c35e2be0f5a3c496d8493c9e3cbde7cabd9f06c7fe",
+        "size_bytes": 728627,
+        "size_pretty": "711.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/AngularSector.vtk"
+      },
+      "CylinderLinear.vtk": {
+        "sha256": "cddeaee6c5f9dcc1274becd3ea52c1b421ea716006df23514b66d5e8b89d0369",
+        "size_bytes": 62802,
+        "size_pretty": "61.3 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/CylinderLinear.vtk"
+      },
+      "CylinderQuadratic.vtk": {
+        "sha256": "4ada66593d40f930baac49ac195e9bdc9ca0839d8efd7ccb7b719f47c7d35a47",
+        "size_bytes": 326604,
+        "size_pretty": "318.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/CylinderQuadratic.vtk"
+      },
+      "DEC.vtk": {
+        "sha256": "a8f719a7598eca8ddbd8b6cab48bb5f2d1b73ffd9fae592c3d6b3b509e3b9e62",
+        "size_bytes": 8415,
+        "size_pretty": "8.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/DEC.vtk"
+      },
+      "PentaHexa.vtk": {
+        "sha256": "f47528f3d2271cd3e3705348d93a35078f4444a7cf4f0e724ac783a92d46af51",
+        "size_bytes": 22948,
+        "size_pretty": "22.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/PentaHexa.vtk"
+      },
+      "RectGrid2.vtk": {
+        "sha256": "0ea4cc9a68f0208042f45b032861fbecd58421412205e83510620ad002ca18d5",
+        "size_bytes": 610457,
+        "size_pretty": "596.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/RectGrid2.vtk"
+      },
+      "SampleStructGrid.vtk": {
+        "sha256": "7488c79cd0e6f49225fe66e2ff6a44eceebfe1b05541f0593add2b1ca93f3828",
+        "size_bytes": 1071885,
+        "size_pretty": "1.0 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/SampleStructGrid.vtk"
+      },
+      "SemiDisk.vtk": {
+        "sha256": "78deab27947f862cb182884073bea21c72a093d2677a9fa2195f975fc202e61b",
+        "size_bytes": 49928,
+        "size_pretty": "48.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/SemiDisk.vtk"
+      },
+      "SurfaceVectors.vtk": {
+        "sha256": "ef9b5475b4a29ea5df10a9063d2d03a21dc40750b377d326e9bf54da4467f192",
+        "size_bytes": 62927,
+        "size_pretty": "61.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/SurfaceVectors.vtk"
+      },
+      "ball.vtk": {
+        "sha256": "b3001c5c6156e9305f01095276938ca3d453e14becd9c9ff87c733877931c523",
+        "size_bytes": 83870,
+        "size_pretty": "81.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/ball.vtk"
+      },
+      "ball_vtkterst.vtk": {
+        "sha256": "d9d7698df98c51a06561a0799e6803b67d3ec6a23d226ac2aae363ce0589ac3c",
+        "size_bytes": 260221,
+        "size_pretty": "254.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/ball_vtkterst.vtk"
+      },
+      "beam-hex.vtk": {
+        "sha256": "a1ccd8c9b2b6517d7acbca6359c4edf631f33802cb193b22648d1f7e04d6f736",
+        "size_bytes": 619,
+        "size_pretty": "619 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/beam-hex.vtk"
+      },
+      "beam-quad.vtk": {
+        "sha256": "d223f32c13387f631e1e48b6609b0ba208fa255ed885968387f7ae95194ce398",
+        "size_bytes": 407,
+        "size_pretty": "407 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/beam-quad.vtk"
+      },
+      "beam-tet.vtk": {
+        "sha256": "326d44da4db4e3c2a800e16e72a91f159cdaf6266f25739aef97ccbb9575d497",
+        "size_bytes": 1238,
+        "size_pretty": "1.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/beam-tet.vtk"
+      },
+      "beam-tri.vtk": {
+        "sha256": "03df7a2a52406e64524774596fae73d8035f3d91330f72a11ff8f23573bb9f54",
+        "size_bytes": 498,
+        "size_pretty": "498 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/beam-tri.vtk"
+      },
+      "beam-wedge.vtk": {
+        "sha256": "18c484b8b80cfa595e59d959918ae8b7c355100b0c1843ddc0bc986a3b80ca62",
+        "size_bytes": 535,
+        "size_pretty": "535 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/beam-wedge.vtk"
+      },
+      "blow.vtk": {
+        "sha256": "a9a661052e214153c69c5a2aba62ac7900d625da46476488adcacc461e2174d5",
+        "size_bytes": 307171,
+        "size_pretty": "300.0 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/blow.vtk"
+      },
+      "blowAttr.vtk": {
+        "sha256": "19e04a39415097751a4c9e7b08afb03a04ad2926b87767c5d24b789b8606eb58",
+        "size_bytes": 270417,
+        "size_pretty": "264.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/blowAttr.vtk"
+      },
+      "blowGeom.vtk": {
+        "sha256": "db9c38751b6cc5ec2110762ab8c32bf18b04f7ec4406bb7856b1b8692586910d",
+        "size_bytes": 36758,
+        "size_pretty": "35.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/blowGeom.vtk"
+      },
+      "bore.vtk": {
+        "sha256": "7edc4917e2c136b7e1ece69b64dd2d6d93d160af8b8356c169a4954c40f1b16c",
+        "size_bytes": 2206,
+        "size_pretty": "2.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/bore.vtk"
+      },
+      "brainImageSmooth.vtk": {
+        "sha256": "d25386e59b530647adbb9eb79348bcdc5e146b6a6914bc427651800074058b6e",
+        "size_bytes": 299259,
+        "size_pretty": "292.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/brainImageSmooth.vtk"
+      },
+      "bunny.vtk": {
+        "sha256": "3b67a28e872ed1c9e90737785cad2b5ac7bb5efc936a47d4f52a8ab91143aa1d",
+        "size_bytes": 2592250,
+        "size_pretty": "2.5 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/bunny.vtk"
+      },
+      "escher-p2.vtk": {
+        "sha256": "610c86158c0f5f381f0b6dfdc1ebd74fb5d7ff3ca9cc71dad11e2f9576f05531",
+        "size_bytes": 5046,
+        "size_pretty": "4.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/escher-p2.vtk"
+      },
+      "escher.vtk": {
+        "sha256": "30bcc52fb7e54c24fb23e50062625ba7e50bf1fd5e32258d79b1714808665d43",
+        "size_bytes": 1437,
+        "size_pretty": "1.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/escher.vtk"
+      },
+      "faults.vtk": {
+        "sha256": "356633902699d73b0a29310397efe0bec3407fccde4b573d7d4403d0fb1fbff9",
+        "size_bytes": 31867,
+        "size_pretty": "31.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/faults.vtk"
+      },
+      "fichera-mixed-p2.vtk": {
+        "sha256": "385c1e627c8bec80d7cc73f4460ea7c7df61dc40800aae64fcbc45de32a205f7",
+        "size_bytes": 7075,
+        "size_pretty": "6.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/fichera-mixed-p2.vtk"
+      },
+      "fichera-q2.vtk": {
+        "sha256": "a152d10ff1ca0c1df98b9b4a9db4522c6f60fa9ba2252a10a7b2a57f42881919",
+        "size_bytes": 4108,
+        "size_pretty": "4.0 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/fichera-q2.vtk"
+      },
+      "fichera.vtk": {
+        "sha256": "4642607730a96d65dc1876330d019767f7a6327a74858698affcc9138f872ab7",
+        "size_bytes": 553,
+        "size_pretty": "553 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/fichera.vtk"
+      },
+      "fieldfile.vtk": {
+        "sha256": "9319c957ca8f539a35bbb4e57b25e824e2fa84ef47640cbc5d608d1a94fe5cd4",
+        "size_bytes": 544,
+        "size_pretty": "544 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/fieldfile.vtk"
+      },
+      "financial.vtk": {
+        "sha256": "5d1694b3078ee0537c7cb205d157a873d85931bafed3a9543e608d98bab3178e",
+        "size_bytes": 139796,
+        "size_pretty": "136.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/financial.vtk"
+      },
+      "fran_cut.vtk": {
+        "sha256": "499c170dd475725f47de4e436f080bd18d1a2cc315411f9c490ba42b6dffbc6d",
+        "size_bytes": 174933,
+        "size_pretty": "170.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/fran_cut.vtk"
+      },
+      "heart.vtk": {
+        "sha256": "b2a00dcd47bcd3bfc3593ce61e17c7522de90e15443550971f5646da54d4b5b9",
+        "size_bytes": 74412,
+        "size_pretty": "72.7 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/heart.vtk"
+      },
+      "hello.vtk": {
+        "sha256": "62ae8709c2eb5f39ded425c6a3e7aa37851f5acad67c42771a94815834cd30ac",
+        "size_bytes": 481,
+        "size_pretty": "481 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/hello.vtk"
+      },
+      "hexa.vtk": {
+        "sha256": "64361d57843c99acf17fc045ecd0c1aa3f7b4861900db18a7455b5c21766ebf0",
+        "size_bytes": 931309,
+        "size_pretty": "909.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/hexa.vtk"
+      },
+      "ironProt.vtk": {
+        "sha256": "544f67d66dbb8b79e48053f131d614e225d0caa702fd3f690313312dd4119f79",
+        "size_bytes": 314642,
+        "size_pretty": "307.3 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/ironProt.vtk"
+      },
+      "lena_header_with_spaces.vtk": {
+        "sha256": "af0a76638fe4f837f024f724b18b8b56089c4d8d5b62b8f01e42b005d98a9742",
+        "size_bytes": 262521,
+        "size_pretty": "256.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/lena_header_with_spaces.vtk"
+      },
+      "matrix.vtk": {
+        "sha256": "d773e130280ba067c515ce1f9b933fa7ca8d930d7c66c55a48bcae62d3769f7b",
+        "size_bytes": 288,
+        "size_pretty": "288 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/matrix.vtk"
+      },
+      "office.binary.vtk": {
+        "sha256": "b71ac0334e92829a431fe7aaff54cec1add42f4d50e42a56fa4917560c9c8de5",
+        "size_bytes": 235391,
+        "size_pretty": "229.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/office.binary.vtk"
+      },
+      "plate.vtk": {
+        "sha256": "a6eba322d73dc097d8b27cc88d34546d4e6aa0c83b7c90f0e1be52ee79ed4cbf",
+        "size_bytes": 81913,
+        "size_pretty": "80.0 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/plate.vtk"
+      },
+      "polyEx.vtk": {
+        "sha256": "f020ce787fa515d949723b67b9e667dff8eed8d908830dc6e6ae525df87c60bf",
+        "size_bytes": 639,
+        "size_pretty": "639 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/polyEx.vtk"
+      },
+      "post.vtk": {
+        "sha256": "1f35821cf9dc8babdcf3767296bb23b15b45788b9f11cfd723a79f0be88ac8f9",
+        "size_bytes": 246846,
+        "size_pretty": "241.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/post.vtk"
+      },
+      "qualityEx.vtk": {
+        "sha256": "532fce0b6877a2850f7e2638b65816a5aa8aab75b2a4abc387e56f06d76e647c",
+        "size_bytes": 871,
+        "size_pretty": "871 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/qualityEx.vtk"
+      },
+      "square-disc-p2.vtk": {
+        "sha256": "528a454f098950b811e179b5b2b0671644914ebd5a65455f88c8afafd61b9782",
+        "size_bytes": 11066,
+        "size_pretty": "10.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/square-disc-p2.vtk"
+      },
+      "square-disc.vtk": {
+        "sha256": "3700567304b3d7ff5d22b6d724e3156b151552363a508569bfe9520cfd952540",
+        "size_bytes": 4211,
+        "size_pretty": "4.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/square-disc.vtk"
+      },
+      "star-mixed-p2.vtk": {
+        "sha256": "287fa0d1414bc109a1ece78b3d6dc4e4c0e9b3fbaff6fd4721d1ef2b71bcab5a",
+        "size_bytes": 4060,
+        "size_pretty": "4.0 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/star-mixed-p2.vtk"
+      },
+      "star-q2.vtk": {
+        "sha256": "9fc6c50ae2be2bb1bd7d847ce768bd06af63c152612f7ab8b30681ca1395c6a7",
+        "size_bytes": 2893,
+        "size_pretty": "2.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/star-q2.vtk"
+      },
+      "star.vtk": {
+        "sha256": "d0789d4e47235054043bca9a2bd033f030d044a3a26d4cd1a04e145e179870e4",
+        "size_bytes": 1082,
+        "size_pretty": "1.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/star.vtk"
+      },
+      "tensors.vtk": {
+        "sha256": "cb4722a965253a8e5c0580bc791fd9b61030f144c0fbfb54e95d5caac9b9da83",
+        "size_bytes": 895,
+        "size_pretty": "895 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/tensors.vtk"
+      },
+      "test_COLOR_SCALARS_1.vtk": {
+        "sha256": "7d4ee90c2cb148cbca98d7e2c97b11c7f9065d79b443ed2c8b5b5a41fd438afb",
+        "size_bytes": 262330,
+        "size_pretty": "256.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/test_COLOR_SCALARS_1.vtk"
+      },
+      "tetraMesh.vtk": {
+        "sha256": "df57cd0886c181bd95d74a0edbcec56823a326050674033556f4cbff3831f917",
+        "size_bytes": 4371,
+        "size_pretty": "4.3 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/tetraMesh.vtk"
+      },
+      "texThres2.vtk": {
+        "sha256": "fdb71e5442830fe0b83925de96c7bbec1026a9c079d9c78fa2df64e076d6752e",
+        "size_bytes": 1190,
+        "size_pretty": "1.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/texThres2.vtk"
+      },
+      "track1.binary.vtk": {
+        "sha256": "53d83fb5a6f19771001ef4f0aaa7998f55f48e4fd4228f66312ee9e8f0ac2150",
+        "size_bytes": 325514,
+        "size_pretty": "317.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/track1.binary.vtk"
+      },
+      "track2.binary.vtk": {
+        "sha256": "8cd7dc35ccbe0422833ca5a60bcc7780ad45c0d5972984cfe2ef2b5b8faa35e5",
+        "size_bytes": 325514,
+        "size_pretty": "317.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/track2.binary.vtk"
+      },
+      "track3.binary.vtk": {
+        "sha256": "d2f55526144947afd61599126496afddf06834163bfe2b9aa384f2b8414c48fb",
+        "size_bytes": 325514,
+        "size_pretty": "317.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/track3.binary.vtk"
+      },
+      "uGridEx.vtk": {
+        "sha256": "b77a0d17a463687f2ed876e4fc76123054f013ee9b16859191e4fc3af1b31a66",
+        "size_bytes": 1012,
+        "size_pretty": "1012 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/uGridEx.vtk"
+      },
+      "usa.vtk": {
+        "sha256": "a3961568784c1cd7b56b8aee0e5706db82648d3b96edb6ba245f6e5c9e01338d",
+        "size_bytes": 80258,
+        "size_pretty": "78.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/usa.vtk"
+      },
+      "volume_3D_vtk_field_data.vtk": {
+        "sha256": "1c2babae4ed0787ff1193bfb8fc349b016c07e62b6b16e5d03605c534cf183b6",
+        "size_bytes": 4346368,
+        "size_pretty": "4.1 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/volume_3D_vtk_field_data.vtk"
+      },
+      "volume_3D_vtk_scalars.vtk": {
+        "sha256": "b1cab3ea47bfb6eb2b93091bd3e87bef6bd83a93f3c56ba8f2e51678544a483d",
+        "size_bytes": 18216973,
+        "size_pretty": "17.4 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/volume_3D_vtk_scalars.vtk"
+      },
+      "vtk.vtk": {
+        "sha256": "50e63483b30f428c41e171076094b33e1ba9a5baaa2c109692b933b25b2069fc",
+        "size_bytes": 287,
+        "size_pretty": "287 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtk/vtk.vtk"
+      }
+    },
+    "vtp": {
+      "Bunny.vtp": {
+        "sha256": "aa0b1f7fc5210769ba707af4584b71b92dea365a8a6c71d8d6567c0d0be6d421",
+        "size_bytes": 33381,
+        "size_pretty": "32.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/Bunny.vtp"
+      },
+      "ExportBunny.vtp": {
+        "sha256": "6913ada7dd6d56ea1fbc606e50aff44874443390e7cbc695f7f5b9c15365fb92",
+        "size_bytes": 4294,
+        "size_pretty": "4.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/ExportBunny.vtp"
+      },
+      "ExportBunny.zip": {
+        "sha256": "7aa663c62a17cc3dd509cc70b07a2a4fff1752673a6be74cdf6ec39a8ac10334",
+        "size_bytes": 2314143,
+        "size_pretty": "2.2 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/ExportBunny.zip"
+      },
+      "Exporttrumpet.vtp": {
+        "sha256": "91d618676aea7099cd936cf530128035689d84505eb2269dc7ea87cddc637d3e",
+        "size_bytes": 878,
+        "size_pretty": "878 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/Exporttrumpet.vtp"
+      },
+      "Human.vtp": {
+        "sha256": "fefab39f1f82ac57a19e0e5dfb36211be7d0ccd4ec033a0e8c1961697e960a83",
+        "size_bytes": 1747446,
+        "size_pretty": "1.7 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/Human.vtp"
+      },
+      "ObliqueCone.vtp": {
+        "sha256": "da50c77c9f97b56dd9c283996223ad72f93dd48cef34e6d0c1e8b2ecdee051f8",
+        "size_bytes": 3733,
+        "size_pretty": "3.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/ObliqueCone.vtp"
+      },
+      "Ring.vtp": {
+        "sha256": "4996c7de165682f3bf35a0b4c1c019c366dde3ffafbc56d815a1a54a08cf0678",
+        "size_bytes": 5297,
+        "size_pretty": "5.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/Ring.vtp"
+      },
+      "SemiDisk-0.vtp": {
+        "sha256": "4d4f522317efd378bc1f41a8a1bfa02d0f3f412465c33ead0d75067605965e3a",
+        "size_bytes": 42839,
+        "size_pretty": "41.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/SemiDisk-0.vtp"
+      },
+      "SemiDisk-1.vtp": {
+        "sha256": "2ed362196cf5259fabe30cdf1e11f4e992d937f016c7557bf056b64f4df93223",
+        "size_bytes": 44439,
+        "size_pretty": "43.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/SemiDisk-1.vtp"
+      },
+      "SyntheticPolyline.vtp": {
+        "sha256": "5ff87e5956b01a2fb6779d40b7dc3930763675ae397f302217c793006a19301b",
+        "size_bytes": 4708,
+        "size_pretty": "4.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/SyntheticPolyline.vtp"
+      },
+      "cow.vtp": {
+        "sha256": "d5aa4901d186902f90e17bf3b5917541cb6cb8cf223bfeea736631df4c047652",
+        "size_bytes": 60449,
+        "size_pretty": "59.0 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/cow.vtp"
+      },
+      "disk_out_ref_surface.vtp": {
+        "sha256": "f1292bd8e26b8ef920dd27d6ac409ab63c2c2e3feae7c6f4f9d7e8b80c2a2464",
+        "size_bytes": 81097,
+        "size_pretty": "79.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/disk_out_ref_surface.vtp"
+      },
+      "filledContours.vtp": {
+        "sha256": "faa07657fe0546b9227c3eae98474c4dc3ceab39126eaa85fb740aed34c30ad2",
+        "size_bytes": 3140,
+        "size_pretty": "3.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/filledContours.vtp"
+      },
+      "political.vtp": {
+        "sha256": "7f5ce4be0dcc688ecf45056eb75ae7e0b0d9dc8407e400115f706ad0c09d1527",
+        "size_bytes": 1072282,
+        "size_pretty": "1.0 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/political.vtp"
+      },
+      "uniform-001371-5x5x5.vtp": {
+        "sha256": "0fe29614d60d728addf13ee22d8b1d3dc8d0eb18723e104b2e1157c5213f6cba",
+        "size_bytes": 90039,
+        "size_pretty": "87.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtp/uniform-001371-5x5x5.vtp"
+      }
+    },
+    "vtu": {
+      "Hexahedron.vtu": {
+        "sha256": "5109459817b4b16a9cf944500dbd2cedf7e0c82ee8dc1df80241b0f30254231a",
+        "size_bytes": 2450,
+        "size_pretty": "2.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtu/Hexahedron.vtu"
+      },
+      "QuadraticPyramid.vtu": {
+        "sha256": "6e14d5c0999b71fb008e45fa6d065766678ba92b97de0e012bba4380505d21c7",
+        "size_bytes": 10293,
+        "size_pretty": "10.1 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtu/QuadraticPyramid.vtu"
+      },
+      "QuadraticWedge.vtu": {
+        "sha256": "fb2f7f0e376e2b1d5b0b53bbfda57919ff7c17580e096a6426232d6dae6bc2ab",
+        "size_bytes": 5733,
+        "size_pretty": "5.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtu/QuadraticWedge.vtu"
+      },
+      "polyhedron2pieces.vtu": {
+        "sha256": "08b5e5eb30363f9a3fecb6ca81f18ce559ca0dec0d98f629feeda8f859aa4d45",
+        "size_bytes": 2483,
+        "size_pretty": "2.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtu/polyhedron2pieces.vtu"
+      },
+      "quadraticTetra01.vtu": {
+        "sha256": "6bebfc84f0c342a867e6c50f849aa532f075d99b6ea980c0140966fb96d520ad",
+        "size_bytes": 1471,
+        "size_pretty": "1.4 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/vtu/quadraticTetra01.vtu"
+      }
+    },
+    "wkt": {
+      "collection.wkt": {
+        "sha256": "60ce6f6a775a81ad92b9f29d1efe5435f2c4e21696cabf98807f9e29f0351b35",
+        "size_bytes": 82,
+        "size_pretty": "82 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/collection.wkt"
+      },
+      "complex_multipoly_z.wkt": {
+        "sha256": "d458917b12ac7f519dcbafd88afed3e7a880e4aa47a652aa3cfb02aed4568f30",
+        "size_bytes": 266,
+        "size_pretty": "266 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/complex_multipoly_z.wkt"
+      },
+      "hole_in_hole.wkt": {
+        "sha256": "85648a823ea3ec90255f0335f3dabd44f645e81b41b0bbd0dce5b7566bebe261",
+        "size_bytes": 94,
+        "size_pretty": "94 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/hole_in_hole.wkt"
+      },
+      "linestring.wkt": {
+        "sha256": "f6f50659d193dda5f6a1ba5146a060028b7ba2e1bc5520a2edefd0a9d85b06e7",
+        "size_bytes": 33,
+        "size_pretty": "33 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/linestring.wkt"
+      },
+      "multilinestring.wkt": {
+        "sha256": "46ecb944baa71ae9fe3e417e6bdea832b5a22f7b54a4ec19318aad350b98ea7f",
+        "size_bytes": 69,
+        "size_pretty": "69 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/multilinestring.wkt"
+      },
+      "multipoint.wkt": {
+        "sha256": "1b567532c53b4cb79e98d5154fade3373a18068a231354c5736e11ea92456943",
+        "size_bytes": 48,
+        "size_pretty": "48 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/multipoint.wkt"
+      },
+      "multipoly_mixed.wkt": {
+        "sha256": "ab32d9b6a1475a1736b4ea95ba1ea075656f8f9327e494d47479c75afa185fd0",
+        "size_bytes": 135,
+        "size_pretty": "135 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/multipoly_mixed.wkt"
+      },
+      "multipolygon.wkt": {
+        "sha256": "a3fd99c925f34c5fe9c7167281b3060dc88726e57f21d480c708cb638d27837b",
+        "size_bytes": 81,
+        "size_pretty": "81 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/multipolygon.wkt"
+      },
+      "multipolygon_hole.wkt": {
+        "sha256": "d5c32d4ec313e4ed842754abb19855c5c899202e525ec1a486eb22748b7297f1",
+        "size_bytes": 119,
+        "size_pretty": "119 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/multipolygon_hole.wkt"
+      },
+      "point.wkt": {
+        "sha256": "ed95ea88ab3565f48c97639e8977992bcd6174e23ef233d8504c204c8c75227b",
+        "size_bytes": 14,
+        "size_pretty": "14 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/point.wkt"
+      },
+      "polygon.wkt": {
+        "sha256": "c15eaa785b12b4779f4106bf04e8af005f0bfa31a8fae35402812510f39afeed",
+        "size_bytes": 46,
+        "size_pretty": "46 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/polygon.wkt"
+      },
+      "polygon_hole.wkt": {
+        "sha256": "f7f72acbf6641d67566d808dc3d21635266ba001192302eff3083bb09b0c4228",
+        "size_bytes": 75,
+        "size_pretty": "75 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/polygon_hole.wkt"
+      },
+      "shared_edge.wkt": {
+        "sha256": "5794330a95bb9cb97d0b30c202d8c9ad374b0626c8eea47e6c81bbc2a0587b47",
+        "size_bytes": 94,
+        "size_pretty": "94 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/shared_edge.wkt"
+      },
+      "shared_vertex.wkt": {
+        "sha256": "e3cdc5b7b93a636208cf1111946999af7c5452154537f3bdc5fdff16cf4c63f5",
+        "size_bytes": 62,
+        "size_pretty": "62 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/shared_vertex.wkt"
+      },
+      "simple.wkt": {
+        "sha256": "3f24bf3d8f7666b55c9775a749ecda4f1104dddbc355aca3ed3880067cd176e6",
+        "size_bytes": 69,
+        "size_pretty": "69 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/simple.wkt"
+      },
+      "whitespaced.wkt": {
+        "sha256": "9577c017f76d742118be50cabe187b874dfa9ddcdcae9cf09cbd3c31e34e2e99",
+        "size_bytes": 103,
+        "size_pretty": "103 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/wkt/whitespaced.wkt"
+      }
+    }
+  }
+}

@@ -11,30 +11,30 @@ Test data for [polyxios](https://github.com/fury-gl/polyxios) codec integration 
 
 ### Release Details
 
-| Archive | Format | Files | Size |
-|---------|--------|-------|------|
-| `abaqus.zip` | ABAQUS | 5 | 4.4 KB |
-| `avs.zip` | AVS | 1 | 999 B |
-| `dolfin.zip` | DOLFIN | 1 | 44.7 KB |
-| `flac3d.zip` | FLAC3D | 1 | 3.0 KB |
-| `gmsh.zip` | GMSH | 2 | 4.8 KB |
-| `mdpa.zip` | MDPA | 2 | 28.4 KB |
-| `medit.zip` | MEDIT | 6 | 125.1 KB |
-| `mesh.zip` | MESH | 89 | 135.3 KB |
-| `nastran.zip` | NASTRAN | 2 | 4.4 KB |
-| `netgen.zip` | NETGEN | 3 | 5.8 KB |
-| `obj.zip` | OBJ | 34 | 29.2 MB |
-| `off.zip` | OFF | 4 | 42.7 KB |
-| `ply.zip` | PLY | 22 | 76.3 MB |
-| `stl.zip` | STL | 2 | 80.1 KB |
-| `su2.zip` | SU2 | 2 | 1.0 KB |
-| `tecplot.zip` | TECPLOT | 3 | 1015 B |
-| `tetgen.zip` | TETGEN | 2 | 3.6 KB |
-| `ugrid.zip` | UGRID | 1 | 204 B |
-| `vtk.zip` | VTK | 59 | 10.6 MB |
-| `vtp.zip` | VTP | 14 | 3.4 MB |
-| `vtu.zip` | VTU | 5 | 5.5 KB |
-| `wkt.zip` | WKT | 16 | 2.6 KB |
+| Format Release | Format | Files | Size |
+|----------------|--------|-------|------|
+| `abaqus` | ABAQUS | 5 | 14.6 KB |
+| `avs` | AVS | 1 | 6.5 KB |
+| `dolfin` | DOLFIN | 1 | 222.8 KB |
+| `flac3d` | FLAC3D | 1 | 17.0 KB |
+| `gmsh` | GMSH | 2 | 10.8 KB |
+| `mdpa` | MDPA | 2 | 129.1 KB |
+| `medit` | MEDIT | 6 | 407.3 KB |
+| `mesh` | MESH | 89 | 358.5 KB |
+| `nastran` | NASTRAN | 2 | 22.7 KB |
+| `netgen` | NETGEN | 3 | 35.6 KB |
+| `obj` | OBJ | 34 | 112.0 MB |
+| `off` | OFF | 4 | 104.8 KB |
+| `ply` | PLY | 22 | 175.7 MB |
+| `stl` | STL | 2 | 450.1 KB |
+| `su2` | SU2 | 2 | 5.6 KB |
+| `tecplot` | TECPLOT | 3 | 1.1 KB |
+| `tetgen` | TETGEN | 2 | 13.8 KB |
+| `ugrid` | UGRID | 1 | 182 B |
+| `vtk` | VTK | 59 | 31.7 MB |
+| `vtp` | VTP | 15 | 5.3 MB |
+| `vtu` | VTU | 5 | 21.9 KB |
+| `wkt` | WKT | 16 | 1.4 KB |
 
 ### Model Names Catalog
 <details>
@@ -59,7 +59,7 @@ Test data for [polyxios](https://github.com/fury-gl/polyxios) codec integration 
 - **tetgen**: `mesh.ele`, `mesh.node`
 - **ugrid**: `pyra_cube.ugrid`
 - **vtk**: `AngularSector.vtk`, `CylinderLinear.vtk`, `CylinderQuadratic.vtk`, `DEC.vtk`, `PentaHexa.vtk`, `RectGrid2.vtk`, `SampleStructGrid.vtk`, `SemiDisk.vtk`, `SurfaceVectors.vtk`, `ball.vtk`, `ball_vtkterst.vtk`, `beam-hex.vtk`, `beam-quad.vtk`, `beam-tet.vtk`, `beam-tri.vtk`, `beam-wedge.vtk`, `blow.vtk`, `blowAttr.vtk`, `blowGeom.vtk`, `bore.vtk`, `brainImageSmooth.vtk`, `bunny.vtk`, `escher-p2.vtk`, `escher.vtk`, `faults.vtk`, `fichera-mixed-p2.vtk`, `fichera-q2.vtk`, `fichera.vtk`, `fieldfile.vtk`, `financial.vtk`, `fran_cut.vtk`, `heart.vtk`, `hello.vtk`, `hexa.vtk`, `ironProt.vtk`, `lena_header_with_spaces.vtk`, `matrix.vtk`, `office.binary.vtk`, `plate.vtk`, `polyEx.vtk`, `post.vtk`, `qualityEx.vtk`, `square-disc-p2.vtk`, `square-disc.vtk`, `star-mixed-p2.vtk`, `star-q2.vtk`, `star.vtk`, `tensors.vtk`, `test_COLOR_SCALARS_1.vtk`, `tetraMesh.vtk`, `texThres2.vtk`, `track1.binary.vtk`, `track2.binary.vtk`, `track3.binary.vtk`, `uGridEx.vtk`, `usa.vtk`, `volume_3D_vtk_field_data.vtk`, `volume_3D_vtk_scalars.vtk`, `vtk.vtk`
-- **vtp**: `Bunny.vtp`, `ExportBunny.vtp`, `Exporttrumpet.vtp`, `Human.vtp`, `ObliqueCone.vtp`, `Ring.vtp`, `SemiDisk-0.vtp`, `SemiDisk-1.vtp`, `SyntheticPolyline.vtp`, `cow.vtp`, `disk_out_ref_surface.vtp`, `filledContours.vtp`, `political.vtp`, `uniform-001371-5x5x5.vtp`
+- **vtp**: `Bunny.vtp`, `ExportBunny.vtp`, `ExportBunny.zip`, `Exporttrumpet.vtp`, `Human.vtp`, `ObliqueCone.vtp`, `Ring.vtp`, `SemiDisk-0.vtp`, `SemiDisk-1.vtp`, `SyntheticPolyline.vtp`, `cow.vtp`, `disk_out_ref_surface.vtp`, `filledContours.vtp`, `political.vtp`, `uniform-001371-5x5x5.vtp`
 - **vtu**: `Hexahedron.vtu`, `QuadraticPyramid.vtu`, `QuadraticWedge.vtu`, `polyhedron2pieces.vtu`, `quadraticTetra01.vtu`
 - **wkt**: `collection.wkt`, `complex_multipoly_z.wkt`, `hole_in_hole.wkt`, `linestring.wkt`, `multilinestring.wkt`, `multipoint.wkt`, `multipoly_mixed.wkt`, `multipolygon.wkt`, `multipolygon_hole.wkt`, `point.wkt`, `polygon.wkt`, `polygon_hole.wkt`, `shared_edge.wkt`, `shared_vertex.wkt`, `simple.wkt`, `whitespaced.wkt`
 
