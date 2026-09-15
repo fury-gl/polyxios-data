@@ -2,6 +2,8 @@
   "ext_to_package": {
     "f3grid": "flac3d",
     "fem": "nastran",
+    "glb": "glTF",
+    "gltf": "glTF",
     "inp": "abaqus",
     "meshb": "medit",
     "tec": "tecplot",
