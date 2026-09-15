@@ -67,7 +67,152 @@
         "url": "https://github.com/fury-gl/polyxios-data/releases/download/flac3d/flac3d_mesh_ex.f3grid"
       }
     },
-    "glTF": {},
+    "glTF": {
+      "AnimatedCube.bin": {
+        "sha256": "82de770fc82b48a77a33bb26abd4d7e75620491b36ddf98e8dca69fa73dd798c",
+        "size_bytes": 1860,
+        "size_pretty": "1.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/AnimatedCube.bin"
+      },
+      "AnimatedCube.gltf": {
+        "sha256": "59a3c451a5167b8ac4b59d61d4b94b2b7a215ee827efaed75629677a1217b552",
+        "size_bytes": 4991,
+        "size_pretty": "4.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/AnimatedCube.gltf"
+      },
+      "AnimatedCube.zip": {
+        "sha256": "bd5a6ae4afd7ddf11412cd3a8c2c2d5aefd85d8368c83bfdbb4460dfdcfcbf22",
+        "size_bytes": 566448,
+        "size_pretty": "553.2 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/AnimatedCube.zip"
+      },
+      "AnimatedCube_BaseColor.png": {
+        "sha256": "0750d5a03c1bebc640571e309f66c6e88efbff2ef4c120619466a7014551bb9a",
+        "size_bytes": 565730,
+        "size_pretty": "552.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/AnimatedCube_BaseColor.png"
+      },
+      "AnimatedMorphCube.glb": {
+        "sha256": "214ee56160a50dbf22543a1d66dbf860986e87f0efac3d89feac1359d0e6aeab",
+        "size_bytes": 6752,
+        "size_pretty": "6.6 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/AnimatedMorphCube.glb"
+      },
+      "Avocado.glb": {
+        "sha256": "ccc9c3ce56423720b09399c2351537207cd5a65f859f9e6e2f30922762f3abd4",
+        "size_bytes": 8110040,
+        "size_pretty": "7.7 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/Avocado.glb"
+      },
+      "BoxAnimated.glb": {
+        "sha256": "ad0d18d9a21df0d7c2bd3890e60ce69d60d39a55d9b82bacea7e77ac9e583839",
+        "size_bytes": 11944,
+        "size_pretty": "11.7 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/BoxAnimated.glb"
+      },
+      "BoxVertexColors.glb": {
+        "sha256": "9c48227f33b0ba2fbcf23b98ebf60d1c8ae0c6e6c5281e0aa3cc58affee10382",
+        "size_bytes": 1924,
+        "size_pretty": "1.9 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/BoxVertexColors.glb"
+      },
+      "Fox.glb": {
+        "sha256": "d97044e701822bac5a62696459b27d7b375aada5de8574ed4362edbba94771f7",
+        "size_bytes": 162852,
+        "size_pretty": "159.0 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/Fox.glb"
+      },
+      "MetalRoughSpheresNoTextures.glb": {
+        "sha256": "5e677f260ec0f366967a6e9545de2f3dab2a160e307b9bcb9d050cd2028f63f8",
+        "size_bytes": 291316,
+        "size_pretty": "284.5 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/MetalRoughSpheresNoTextures.glb"
+      },
+      "RiggedSimple.glb": {
+        "sha256": "3a79dabb67bb0cd598a18d08b954d9d357c27c30672f82ef5d3f4e7fe6ca3401",
+        "size_bytes": 15104,
+        "size_pretty": "14.8 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/RiggedSimple.glb"
+      },
+      "SimpleSkin.gltf": {
+        "sha256": "8d92e9888340eb98e82a65a1f8b037d9a1d9f09e5fd0b6ba6d40fd93700b3239",
+        "size_bytes": 2386,
+        "size_pretty": "2.3 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/SimpleSkin.gltf"
+      },
+      "SimpleSkin.zip": {
+        "sha256": "14a5ed1164d6beb6cb50e7e03c25182b5b4867a859a0600b00d43eab0776a753",
+        "size_bytes": 754,
+        "size_pretty": "754 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/SimpleSkin.zip"
+      },
+      "SimpleSkin_animation.bin": {
+        "sha256": "ff21b1bc3d0abbe53f7665060ec6c22d873b6e85a7669171a2b6b8ae01c39347",
+        "size_bytes": 240,
+        "size_pretty": "240 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/SimpleSkin_animation.bin"
+      },
+      "SimpleSkin_geometry.bin": {
+        "sha256": "35f0ca6bc07976c0aadc163d4737758989cfcc9870a99800004c4478fe698b63",
+        "size_bytes": 168,
+        "size_pretty": "168 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/SimpleSkin_geometry.bin"
+      },
+      "SimpleSkin_inverseBindMatrices.bin": {
+        "sha256": "5844ab221cd2ad367420a248f6387b46e5f8498604427730a37ee96b4d4ec599",
+        "size_bytes": 128,
+        "size_pretty": "128 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/SimpleSkin_inverseBindMatrices.bin"
+      },
+      "SimpleSkin_skinningData.bin": {
+        "sha256": "413bc8a8c0da673df767874e6f05f0b00c9261756a08586b9d555bd5535414b5",
+        "size_bytes": 320,
+        "size_pretty": "320 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/SimpleSkin_skinningData.bin"
+      },
+      "Triangle.bin": {
+        "sha256": "898ed7f560dca9907a80c98be57fbbc0f3a092d2e3683b964ffcfa75c549ac62",
+        "size_bytes": 44,
+        "size_pretty": "44 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/Triangle.bin"
+      },
+      "Triangle.gltf": {
+        "sha256": "6f4a8a1fbefbac2d0adde0800864279fd98c3f119077380e6840810ed62b6cfc",
+        "size_bytes": 1037,
+        "size_pretty": "1.0 KB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/Triangle.gltf"
+      },
+      "Triangle.zip": {
+        "sha256": "860d6c29629f3cc3f5088eb88cad31df3781bc205247589a50285d8678ea4382",
+        "size_bytes": 135,
+        "size_pretty": "135 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/Triangle.zip"
+      },
+      "TriangleWithoutIndices.bin": {
+        "sha256": "d8b87038ed2ace74ed183166f6b0a541eab77f7184d50e65edc4bca5ccb5445a",
+        "size_bytes": 36,
+        "size_pretty": "36 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/TriangleWithoutIndices.bin"
+      },
+      "TriangleWithoutIndices.gltf": {
+        "sha256": "b273d61fdbde2b2cd3aeadaae524776a9703c8354d5dfb5fd0da636724c4a62c",
+        "size_bytes": 747,
+        "size_pretty": "747 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/TriangleWithoutIndices.gltf"
+      },
+      "TriangleWithoutIndices.zip": {
+        "sha256": "dc0ef3ec600d34f961795c874342ff07a4dc21a7af053a63ab4005d95fca1f02",
+        "size_bytes": 161,
+        "size_pretty": "161 B",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/TriangleWithoutIndices.zip"
+      },
+      "WaterBottle.glb": {
+        "sha256": "b337e526fd6a162013c2984aeec163f5fbb4f717252724dfc3f3458bd51df94b",
+        "size_bytes": 8966700,
+        "size_pretty": "8.6 MB",
+        "url": "https://github.com/fury-gl/polyxios-data/releases/download/glTF/WaterBottle.glb"
+      }
+    },
     "gmsh": {
       "insulated-2.2.msh": {
         "sha256": "e948c04847537cffd8b00fbcc4d5add982d18c76cab2200635d43b84ded08523",
