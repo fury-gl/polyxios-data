@@ -17,6 +17,7 @@ Test data for [polyxios](https://github.com/fury-gl/polyxios) codec integration 
 | `avs` | AVS | 1 | 6.5 KB |
 | `dolfin` | DOLFIN | 1 | 222.8 KB |
 | `flac3d` | FLAC3D | 1 | 17.0 KB |
+| `glTF` | GLTF | 0 | 0 B |
 | `gmsh` | GMSH | 2 | 10.8 KB |
 | `mdpa` | MDPA | 2 | 129.1 KB |
 | `medit` | MEDIT | 6 | 407.3 KB |
@@ -44,6 +45,7 @@ Test data for [polyxios](https://github.com/fury-gl/polyxios) codec integration 
 - **avs**: `2d_mesh.avs`
 - **dolfin**: `square.xml`
 - **flac3d**: `flac3d_mesh_ex.f3grid`
+- **glTF**: 
 - **gmsh**: `insulated-2.2.msh`, `insulated-4.1.msh`
 - **mdpa**: `cube.mdpa`, `spatial_statistics.mdpa`
 - **medit**: `cube86.mesh`, `cube_mmg.mesh`, `cube_mmgs.mesh`, `hch_strct.4.be.meshb`, `hch_strct.4.meshb`, `sphere_mixed.1.meshb`

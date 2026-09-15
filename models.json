@@ -65,6 +65,7 @@
         "url": "https://github.com/fury-gl/polyxios-data/releases/download/flac3d/flac3d_mesh_ex.f3grid"
       }
     },
+    "glTF": {},
     "gmsh": {
       "insulated-2.2.msh": {
         "sha256": "e948c04847537cffd8b00fbcc4d5add982d18c76cab2200635d43b84ded08523",
