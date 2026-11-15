@@ -180,18 +180,25 @@ def main():
     readme_path = "README.md"
     if os.path.exists(readme_path):
         table_rows = []
-        for fmt in sorted(formats.keys()):
+        for fmt in sorted(formats.keys(), key=str.lower):
             files_count = len(formats[fmt])
             total_size_bytes = sum(info["size_bytes"] for info in formats[fmt].values())
             size_str = get_file_size_str(total_size_bytes)
             table_rows.append(f"| `{fmt}` | {fmt.upper()} | {files_count} | {size_str} |")
         table_content = "\n".join(table_rows)
 
+        # One bullet per file under a heading per format, so a model can be
+        # found by scanning or with the browser's find.
         catalog_items = []
-        for fmt in sorted(formats.keys()):
-            files_str = ", ".join(f"`{f}`" for f in sorted(formats[fmt].keys()))
-            catalog_items.append(f"- **{fmt}**: {files_str}")
-        catalog_content = "\n".join(catalog_items)
+        for fmt in sorted(formats.keys(), key=str.lower):
+            files = formats[fmt]
+            count = len(files)
+            noun = "file" if count == 1 else "files"
+            catalog_items.append(f"#### {fmt} ({count} {noun})\n")
+            for name in sorted(files.keys(), key=str.lower):
+                catalog_items.append(f"- `{name}` ({files[name]['size_pretty']})")
+            catalog_items.append("")
+        catalog_content = "\n".join(catalog_items).rstrip()
 
         start_marker = "<!-- UNRELEASED_RELEASE_START -->"
         release_block = f"""{start_marker}
